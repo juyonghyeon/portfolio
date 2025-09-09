@@ -69,9 +69,9 @@ en: &DEFAULT_EN
     end: "Be Part <br> of Our <br> Story!"
 
   about:
-    title: "About Us"
-    text: "our story"
-    body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
+    title: "About Me"
+    text: "수학적 사고를 바탕으로 개발에 도전하는 차분한 개발자 **주용현**입니다"
+    body: "수학적 사고로 문제를 깊이 이해하고, 본질적인 해결책을 찾겠습니다.<br />끊임없이 학습하며 인공지능과 개발 역량을 함께 키워나가겠습니다.<br />차분한 태도로 협력하며 신뢰받는 개발자가 되겠습니다."
     section: about
 
   clients:
