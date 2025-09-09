@@ -71,18 +71,18 @@ en: &DEFAULT_EN
 
   about:
     title: "About Me"
-    text: "my story"
+    text: ""
     body: |
       ## 학력
-      - **인천대학교 수학과 졸업**
+      **인천대학교 수학과 졸업**
 
       ## 기술 스택
       <div id="stack-buttons" style="margin-bottom:1rem;">
+        <button onclick="filterStack('all')">All</button>
         <button onclick="filterStack('frontend')">Frontend</button>
         <button onclick="filterStack('backend')">Backend</button>
         <button onclick="filterStack('devops')">DevOps & Deployment</button>
         <button onclick="filterStack('tools')">Tooling & Collaboration</button>
-        <button onclick="filterStack('all')">All</button>
       </div>
 
       <div id="tech-stack" style="display:flex; flex-wrap:wrap; gap:10px;">
@@ -130,61 +130,6 @@ en: &DEFAULT_EN
       }
       </script>
     section: about
-
-  clients:
-    section: clients
-    max-height: 100px
-    horizontal-scrolling: "" #"yes/no"
-    list:
-      - title: "envato"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/envato.jpg
-      - title: "designmodo"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/designmodo.jpg
-      - title: "themeforest"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/themeforest.jpg
-      - title: "Creative Market"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/creative-market.jpg
-
-  team:
-    title: "OUR AMAZING TEAM"
-    text: "Lorem ipsum dolor sit amet consectetur."
-    subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
-    section: team
-    people:
-      - name: "Kay Garland"
-        role: "Lead Designer"
-        image: assets/img/team/500x500.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-      - name: "Larry Parker"
-        role: "Lead Marketer"
-        image: assets/img/team/2.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-      - name: "Diana Perterson"
-        role: "Lead Developer"
-        image: assets/img/team/500x500.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
 
   contact:
     title: "Contact Us"
