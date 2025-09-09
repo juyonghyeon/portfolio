@@ -20,12 +20,24 @@ header {
   top: 0;
 }
 
-nav {
-  display: flex;
-  gap: 16px;
+.header-inner {
   max-width: 960px;
   margin: 0 auto;
   padding: 12px 16px;
+  display: flex;
+  justify-content: space-between; /* 왼쪽: 이름 / 오른쪽: 메뉴 */
+  align-items: center;
+}
+
+.myname {
+  font-size: 20px;
+  font-weight: 700;
+  color: #222;
+}
+
+nav {
+  display: flex;
+  gap: 16px;
 }
 
 nav a {
@@ -37,8 +49,9 @@ nav a {
 }
 
 nav a:hover {
-  background: #eee;
+  background: #2d68c0;
 }
+
 
 /* sections */
 section {
