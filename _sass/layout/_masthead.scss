@@ -25,6 +25,10 @@ header.masthead {
       @include heading-font;
     }
   }
+
+  p {
+    color: black;
+  }
 }
 @media (min-width: 768px) {
   header.masthead {
