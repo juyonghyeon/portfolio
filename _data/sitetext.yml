@@ -71,8 +71,72 @@ en: &DEFAULT_EN
 
   about:
     title: "About Me"
-    text: "my story"
-    body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
+    text: "my st"
+about:
+  title: "About Me"
+  text: "my story"
+  section: about
+  about:
+  title: "About Me"
+  text: "my story"
+  section: about
+  body: |
+    ## 학력
+    - **인천대학교 수학과 졸업**
+
+    ## 기술 스택
+    <div id="stack-buttons" style="margin-bottom:1rem;">
+      <button onclick="filterStack('frontend')">Frontend</button>
+      <button onclick="filterStack('backend')">Backend</button>
+      <button onclick="filterStack('devops')">DevOps & Deployment</button>
+      <button onclick="filterStack('tools')">Tooling & Collaboration</button>
+      <button onclick="filterStack('all')">All</button>
+    </div>
+
+    <div id="tech-stack" style="display:flex; flex-wrap:wrap; gap:10px;">
+      <!-- Frontend -->
+      <img class="stack-icon frontend" src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+      <img class="stack-icon frontend" src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" />
+      <img class="stack-icon frontend" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+      <img class="stack-icon frontend" src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
+      <img class="stack-icon frontend" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
+      <img class="stack-icon frontend" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
+
+      <!-- Backend -->
+      <img class="stack-icon backend" src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white" />
+      <img class="stack-icon backend" src="https://img.shields.io/badge/JPA%2FHibernate-59666C?style=for-the-badge&logo=hibernate&logoColor=white" />
+      <img class="stack-icon backend" src="https://img.shields.io/badge/RESTful%20API-005571?style=for-the-badge&logo=postman&logoColor=white" />
+      <img class="stack-icon backend" src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
+      <img class="stack-icon backend" src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=openjdk&logoColor=white" />
+      <img class="stack-icon backend" src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+
+      <!-- DevOps -->
+      <img class="stack-icon devops" src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white" />
+      <img class="stack-icon devops" src="https://img.shields.io/badge/GitHub%20Pages-222222?style=for-the-badge&logo=githubpages&logoColor=white" />
+
+      <!-- Tools -->
+      <img class="stack-icon tools" src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+      <img class="stack-icon tools" src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+      <img class="stack-icon tools" src="https://img.shields.io/badge/VSCode-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" />
+      <img class="stack-icon tools" src="https://img.shields.io/badge/IntelliJ-000000?style=for-the-badge&logo=intellijidea&logoColor=white" />
+      <img class="stack-icon tools" src="https://img.shields.io/badge/YOLO%20API-00FFFF?style=for-the-badge&logo=yolo&logoColor=black" />
+      <img class="stack-icon tools" src="https://img.shields.io/badge/Tmap%20API-FF5A5F?style=for-the-badge&logo=mapbox&logoColor=white" />
+    </div>
+
+    <script>
+    function filterStack(category) {
+      const allIcons = document.querySelectorAll('.stack-icon');
+      allIcons.forEach(icon => {
+        if (category === 'all' || icon.classList.contains(category)) {
+          icon.style.opacity = '1';
+          icon.style.transform = 'scale(1.05)';
+        } else {
+          icon.style.opacity = '0.3';
+          icon.style.transform = 'scale(1)';
+        }
+      });
+    }
+    </script>
     section: about
 
   clients:

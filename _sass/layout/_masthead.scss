@@ -21,6 +21,7 @@ header.masthead {
       font-size: 20px;
       line-height: 200px;
       margin-bottom: 25px;
+      color: black;
       @include heading-font;
     }
   }
@@ -40,6 +41,7 @@ header.masthead {
         font-size: 20px;
         line-height: 20px;
         margin-bottom: 50px;
+        color: black;
         @include heading-font;
       }
     }
