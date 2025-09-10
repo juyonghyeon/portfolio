@@ -111,6 +111,8 @@ en: &DEFAULT_EN
         <img class="tech-icon tools" src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
         <img class="tech-icon tools" src="https://img.shields.io/badge/VSCode-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" />
         <img class="tech-icon tools" src="https://img.shields.io/badge/IntelliJ-000000?style=for-the-badge&logo=intellijidea&logoColor=white" />
+        <img class="tech-icon tools" src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+        <img class="tech-icon tools" src="https://img.shields.io/badge/Docker%20Hub-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
         <img class="tech-icon tools" src="https://img.shields.io/badge/YOLO%20API-00FFFF?style=for-the-badge&logo=yolo&logoColor=black" />
         <img class="tech-icon tools" src="https://img.shields.io/badge/Tmap%20API-FF5A5F?style=for-the-badge&logo=mapbox&logoColor=white" />
       </div>
